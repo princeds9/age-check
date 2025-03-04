@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Check</title>
+</head>
+<body>
+    <script>
+        // Ask for the user's age
+        var age = prompt("Please enter your age:");
+
+        // Check if age is less than 18
+        if (age < 18) {
+            alert("You are under 18, the process will terminate.");
+            // Optionally, redirect to another page or stop the script
+            window.location.href = "https://www.example.com"; // Or simply close the page with window.close();
+        } else {
+            alert("You are allowed to continue.");
+        }
+    </script>
+</body>
+</html>
